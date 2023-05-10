@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Bilgres;
+    src: url("../recursos/Bilgres\ DEMO.otf");
+}
+
+@import "./recursos/reset";
+@import "./secciones/main-index";
+@import "./secciones/main-contacto";
+@import "./secciones/main-nosotros";
+@import "./secciones/main-galeria";
+@import "./secciones/main-productos";
+@import "./secciones/footer";
+@import "./secciones/header";
+
+
+.logo {
+    width: 65px;
+}
+
+.boton {
+    color: black;
+    background-color: white;
+
+    &:hover {
+        background-color: black;
+        color: white;
+        transform: scale(1.1);
+        transition: 0.9s;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

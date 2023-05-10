@@ -1,0 +1,32 @@
+.main-galeria {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 16%, rgba(190, 188, 185, 1) 100%);
+}
+.falso-body {
+    background-color: rgba(245, 245, 245, 0.877);
+    min-height: 70vh;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: stretch;
+}
+.ancho-maximo {
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width: 775px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 540px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

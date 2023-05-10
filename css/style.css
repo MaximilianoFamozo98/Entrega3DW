@@ -1,0 +1,157 @@
+@font-face {
+  font-family: Bilgres;
+  src: url("../recursos/Bilgres DEMO.otf"); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+#main-index {
+  background-color: rgba(245, 245, 245, 0.877);
+  min-height: 70vh; }
+
+.indexfontsize {
+  font-size: 22px; }
+
+#main-contacto {
+  background: white;
+  background: linear-gradient(180deg, white 16%, #bebcb9 100%); }
+
+.parrafo-contacto {
+  font-family: Merriweather;
+  font-size: 18px;
+  text-align: center;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 250px;
+  padding-right: 250px; }
+
+.form-contacto {
+  width: 300px; }
+
+.anchocomentario {
+  width: 550px;
+  height: 150px; }
+
+iframe {
+  width: 650px;
+  height: 450px; }
+
+.main-nosotros {
+  background-color: #ffe449; }
+
+.about {
+  font-family: 'Book', sans-serif;
+  margin: 0 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .about p {
+    border-top: 6px solid #000000; }
+
+.main-galeria {
+  background: white;
+  background: linear-gradient(180deg, white 16%, #bebcb9 100%); }
+
+.falso-body {
+  background-color: rgba(245, 245, 245, 0.877);
+  min-height: 70vh; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: stretch; }
+
+.ancho-maximo {
+  width: 100%;
+  margin: auto; }
+
+@media (max-width: 775px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 540px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
+
+#main-productos {
+  color: white;
+  background-color: white; }
+
+.divdisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.imagen {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.548);
+  transition: 0.5s;
+  margin: 15px; }
+  .imagen:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center; }
+
+.btn-primary {
+  background-color: #212529; }
+
+.logo-footer {
+  width: 21px;
+  height: 19px; }
+
+.textofooter {
+  font-size: 18px; }
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 11px;
+  background: white;
+  background: linear-gradient(180deg, white 50%, #bebcb9 100%);
+  min-height: 10vh;
+  justify-items: start;
+  align-items: center;
+  text-align: center; }
+
+.footerul {
+  display: flex;
+  padding-left: 150px; }
+
+@media (max-width: 470px) {
+  .footer {
+    display: flex;
+    flex-direction: row; } }
+
+ul li a {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.logo {
+  width: 65px; }
+
+.boton {
+  color: black;
+  background-color: white; }
+  .boton:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.9s;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif; }

@@ -1,0 +1,15 @@
+.main-nosotros {
+    background-color: rgb(255, 228, 73);
+}
+
+.about {
+    font-family: 'Book', sans-serif;
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    p {
+        border-top: 6px solid #000000;
+    }
+}
