@@ -20,13 +20,11 @@
 .parrafo-contacto {
   font-family: Merriweather;
   font-size: 18px;
-  text-align: center;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 250px;
-  padding-right: 250px; }
+  height: 30vh;
+  display: flex;
+  align-items: center; }
 
 .form-contacto {
   width: 300px; }
@@ -36,20 +34,19 @@
   height: 150px; }
 
 iframe {
-  width: 650px;
-  height: 450px; }
+  width: 50%; }
+
+@media (max-width: 570px) {
+  .anchocomentario {
+    width: 100%; } }
 
 .main-nosotros {
   background-color: #ffe449; }
 
 .about {
-  font-family: 'Book', sans-serif;
-  margin: 0 200px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
+  font-family: 'Book', sans-serif; }
   .about p {
-    border-top: 6px solid #000000; }
+    border-top: 6px solid black; }
 
 .main-galeria {
   background: white;
@@ -119,20 +116,19 @@ iframe {
   grid-template-columns: repeat(3, 1fr);
   font-size: 11px;
   background: white;
-  background: linear-gradient(180deg, white 50%, #bebcb9 100%);
+  background: linear-gradient(180deg, white 16%, #bebcb9 100%);
   min-height: 10vh;
   justify-items: start;
   align-items: center;
   text-align: center; }
 
 .footerul {
-  display: flex;
-  padding-left: 150px; }
+  display: flex; }
 
-@media (max-width: 470px) {
+@media (max-width: 475px) {
   .footer {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: column; } }
 
 ul li a {
   color: white;

@@ -2,6 +2,8 @@
     font-family: Bilgres;
     src: url("../recursos/Bilgres\ DEMO.otf");
 }
+$blanco : linear-gradient(180deg, rgba(255, 255, 255, 1) 16%, rgba(190, 188, 185, 1) 100%);
+$negro : black ; 
 
 @import "./recursos/reset";
 @import "./secciones/main-index";
@@ -18,11 +20,11 @@
 }
 
 .boton {
-    color: black;
+    color: $negro;
     background-color: white;
 
     &:hover {
-        background-color: black;
+        background-color: $negro;
         color: white;
         transform: scale(1.1);
         transition: 0.9s;

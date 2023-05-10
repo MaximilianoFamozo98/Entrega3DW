@@ -6,13 +6,11 @@
 .parrafo-contacto{
     font-family: Merriweather;
     font-size: 18px;
-    text-align: center;
     border-top: solid 1px black;
     border-bottom: solid 1px black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 250px;
-    padding-right: 250px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
     
 }
 .form-contacto{
@@ -22,13 +20,11 @@
     width: 550px;
     height: 150px;
 }
-
-
-
-
-
-iframe {
-    width: 650px;
-    height: 450px;
-    
+iframe{
+    width: 50%;
+}
+@media (max-width: 570px) {
+     .anchocomentario{
+        width: 100%;
+     }
 }

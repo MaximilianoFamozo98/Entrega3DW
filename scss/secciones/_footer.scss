@@ -5,12 +5,13 @@
 .textofooter {
     font-size: 18px;
 }
+
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     font-size: 11px;
     background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 50%, rgba(190, 188, 185, 1) 100%);
+    background: $blanco;
     min-height: 10vh;
     justify-items: start;
     align-items: center;
@@ -18,13 +19,12 @@
 }
 .footerul {
     display: flex;
-    padding-left: 150px;
 }
 
 
-@media (max-width: 470px) {
+@media (max-width: 475px) {
     .footer {
-        display: flex;
-        flex-direction: row;
+       display: flex;
+       flex-direction: column;
     }
 }
