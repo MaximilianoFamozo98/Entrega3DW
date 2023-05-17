@@ -2,6 +2,7 @@
     background: rgb(255, 255, 255);
     background: $blanco;
 }
+
 .falso-body {
     background-color: rgba(245, 245, 245, 0.877);
     min-height: 70vh;
@@ -10,7 +11,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    justify-items: stretch;
+    justify-items: center
 }
 .ancho-maximo {
     width: 100%;
