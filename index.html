@@ -11,6 +11,8 @@
     <link rel="shortcut icon" href="./img/logo bebidas el pajaro.jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/aaef0c630d.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -29,34 +31,34 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/galeria.html">Galeria</a>
+                            <a class="nav-link active text-white" aria-current="page" href="./pages/galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                            <a class="nav-link text-white" href="./pages/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button"
+                            <a class="nav-link dropdown-toggle text-white" href="./pages/productos.html" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./pages/productos.html">Tragos</a></li>
-                                <li><a class="dropdown-item" href="./pages/productos.html">Botellas</a></li>
+                                <li><a class="dropdown-item text-white"  href="./pages/productos.html">Tragos</a></li>
+                                <li><a class="dropdown-item text-white" href="./pages/productos.html">Botellas</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="./pages/productos.html">Combos</a></li>
+                                <li><a class="dropdown-item text-white" href="./pages/productos.html">Combos</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                        <li class="nav-item text-white">
+                            <a class="nav-link active text-white" aria-current="page" href="./pages/contacto.html">Contacto</a>
                         </li>
 
 
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success boton" type="submit">Buscar</button>
+                        <button class="btn btn-outline-success boton text-dark" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -65,9 +67,15 @@
 
     <main id="main-index">
         <div class="imgspam">
-            <img src="./img/Despachamos a todo el pais.jpg" alt="despachos">
-            <img src="./img/todos los medios de pago.jpg" alt="mediosdepago">
-            <img src="./img/sitioseguro.jpg" alt="sitio-seguro">
+            <div class="contenedor-iconp">
+                <i class="fa-solid fa-truck-fast"></i><p>Despachamos a todo el pais</p>
+            </div>
+            <div class="contenedor-iconp">
+                <i class="fa-solid fa-lock"></i><p>Sitio seguro</p>
+            </div>
+            <div class="contenedor-iconp">
+                <i class="fa-solid fa-wallet"></i><p>Todos los medios de pago</p>
+            </div>
         </div>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -105,28 +113,37 @@
     </main>
 
     <footer class="footer">
-        <div>
-            <strong class="textofooter">
-                <p>BebidasElPajaro&copy;</p>
-            </strong>
+        <div class="contenedor">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Nosotros</h4>
+              <ul>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Icons</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Tienda Online</h4>
+              <ul>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Icons</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Seguinos</h4>
+              <div class="social-links">
+                <i class="fa-brands fa-facebook-f facebook"></i>
+                <i class="fa-brands fa-twitter twitter"></i>
+                <i class="fa-brands fa-instagram instagram"></i>
+                <i class="fa-brands fa-whatsapp whatsapp"></i>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-            <p>COPYRIGHT TIENDA DE BEBIDAS ALCOHÓLICAS - BEBIDAS EL PAJARO - 2023. TODOS LOS DERECHOS RESERVADOS.
-            </p>
-        </div>
-        <div>
-            <ul class="footerul">
-                <li><a href="#"></a></li>
-                <img src="./img/icono wsp piola.png" alt="wsp" class="logo-footer">
-                <li><a href="#"></a></li>
-                <img src="./img/icono ig piolaa.jpg" alt="ig" class="logo-footer">
-                <li><a href="#"></a></li>
-                <img src="./img/icono facebook.png" alt="fb" class="logo-footer">
-                <li><a href="#"></a></li>
-                <img src="./img/icono tw.jpg" alt="tw" class="logo-footer">
-            </ul>
-        </div>
-    </footer>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
