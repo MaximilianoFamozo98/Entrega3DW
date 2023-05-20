@@ -1,7 +1,13 @@
 .main-nosotros {
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.main-nosotros div img{
+    width: 100%;
+    height: 100%;
+}
 .about {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
@@ -10,17 +16,7 @@
         border-top: 6px solid $negro;
     }
 }
-.imgnosotros{
-    display: flex;
+.main-nosotros .parrafo p{
     font-family: 'tofinoBook', serif;
-    font-size: 36px;
-    text-align: center;
-    p{
-        width: 60vh;
-        line-height: 1.3;
-        padding-top: 150px;
-        padding-left: 15px;
-    }
-    
-    
+    font-size: 25px;
 }

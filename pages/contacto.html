@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img class="logo" src="../img/logo bebidas el pajaro.jpeg" alt="logo">
@@ -36,19 +36,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="./nosotros.html">Nosotros</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="./productos.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item text-white" href="./productos.html">Tragos</a></li>
-                                <li><a class="dropdown-item text-white" href="./productos.html">Botellas</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item text-white" href="./productos.html">Combos</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../pages/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="./contacto.html">Contacto</a>
@@ -63,27 +52,33 @@
             </div>
         </nav>
     </header>
-    <main class="main-contacto">
+    <section>
         <div class="parrafo-contacto text-center">
             <p>Si estas interesado en alguno de nuestros productos, servicios o simplemente querés dejarnos un
                 comentario, por favor completá el siguiente formulario.
                 Muy pronto un asesor de BebidasElPajaro se estará contactando</p>
         </div>
+    </section>
+    <main class="main-contacto">
         <section class="sectionform">
             <p class="pcomplete">COMPLETE EL FORMULARIO</p>
             <form class="form-contacto">
                 <div class="mb-3">
-                    <strong for="exampleInputPassword1" class="form-label">Nombre y Apellido*</strong>
+                    <strong for="exampleInputPassword1" class="form-label">Nombre</strong>
                     <input type="" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
-                    <strong for="exampleInputEmail1" class="form-label">Email*</strong>
+                    <strong for="exampleInputPassword1" class="form-label">Apellido</strong>
+                    <input type="" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <strong for="exampleInputEmail1" class="form-label">Email</strong>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     <div id="emailHelp" class="form-text"></div>
                 </div>
 
                 <div id="wpforms-2156-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2">
-                    <strong class="wpforms-field-label" for="wpforms-2156-field_2">Mensaje / Comentario <span
+                    <strong class="wpforms-field-label" for="wpforms-2156-field_2">Comentario<span
                             class="wpforms-required-label">*</span></strong>
                     <textarea class="anchocomentario form-control" id="wpforms-2156-field_2"
                         class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][2]"
@@ -94,14 +89,14 @@
             </form>
         </section>
        
+       
+    </main>
         <section class="text-center">
             <p>Nos encontramos en:</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3895.826088061817!2d-58.287744946498265!3d-34.80628924794194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1679706214363!5m2!1ses!2sar">
             </iframe>
         </section>
-    </main>
-
     <footer class="footer">
         <div class="contenedor">
           <div class="row">
