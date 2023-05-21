@@ -1,15 +1,19 @@
 .contenedor{
-	  width: 100%;
-    background: radial-gradient(black, #24262b);
+	max-width: 1170px;
+	margin:auto;
+  
 }
 
 .row {
    display: flex;
+   --bs-gutter-x:0rem;
 }
 .footer ul{
   list-style: none;
 }
 .footer{
+  background:radial-gradient(black, #24262b);
+  padding: 20px 0;
   position: relative;
 }
 .footer-col{
