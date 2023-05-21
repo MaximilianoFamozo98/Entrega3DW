@@ -86,7 +86,8 @@ iframe {
 .about {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .about p {
-    border-top: 6px solid black; }
+    border-top: 6px solid #ffb300;
+    font-family: 'tofinoBook', serif; }
 
 .main-nosotros .parrafo p {
   font-family: 'tofinoBook', serif;
@@ -181,7 +182,7 @@ iframe {
   margin-bottom: 10px; }
 
 .footer-col ul li a {
-  font-size: 20px;
+  font-size: 15px;
   text-transform: capitalize;
   text-decoration: none;
   font-weight: 300;
